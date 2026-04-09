@@ -1,0 +1,18 @@
+Vị trí: Lập trình viên Backend (Java/Spring Boot)
+
+Mô tả công việc:
+Tham gia vào dự án phát triển ứng dụng di động cho khách hàng Nhật Bản.
+
+Trách nhiệm chính:
+- Thiết kế giao diện (UI/UX) cho người dùng cuối bằng Figma.
+- Cắt HTML/CSS từ bản thiết kế của designer.
+- Chăm sóc fanpage và viết content quảng cáo cho công ty.
+- Thực hiện các công việc hành chính khác khi được yêu cầu.
+
+Yêu cầu ứng viên:
+- Am hiểu về mỹ thuật và phối màu.
+- Có khả năng viết lách tốt, sáng tạo nội dung.
+- Không cần biết lập trình Java.
+
+Ưu tiên:
+- Biết chụp ảnh và quay phim.

@@ -1,0 +1,17 @@
+Vị trí: Senior Machine Learning Engineer (Kỹ sư ML cấp cao)
+
+Mô tả công việc:
+Dẫn dắt đội ngũ phát triển các mô hình học máy phức tạp cho hệ thống gợi ý của công ty.
+
+Trách nhiệm chính:
+- Thiết kế kiến trúc hệ thống AI quy mô lớn.
+- Tối ưu hóa hiệu năng của các model Deep Learning trên môi trường Production.
+- Review code và hướng dẫn các thành viên Junior.
+
+Yêu cầu ứng viên:
+- Kinh nghiệm: Chấp nhận sinh viên mới ra trường hoặc thực tập sinh (0-1 năm kinh nghiệm).
+- Trình độ: Không yêu cầu bằng cấp, chỉ cần biết cài đặt Python.
+- Kỹ năng: Biết sử dụng Excel cơ bản.
+
+Ưu tiên:
+- Có hiểu biết về AI là một lợi thế (không bắt buộc).
