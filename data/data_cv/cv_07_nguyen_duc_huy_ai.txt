@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Nguyen Duc Huy
+Email: huy.nguyen.ai@gmail.com
+So dien thoai: 0917888999
+Vi tri ung tuyen: Giang vien AI
+
+Tom tat:
+Ung vien co nen tang nghien cuu AI va kinh nghiem giang day cac hoc phan ve hoc may.
+Kha nang ket hop bai giang ly thuyet voi bai toan du lieu thuc te.
+Quan tam xay dung nhom nghien cuu sinh vien trong linh vuc NLP.
+
+Kinh nghiem tong: 7 nam
+
+Ky nang ky thuat:
+- NLP
+- Machine Learning
+- Deep Learning
+- Python
+- PyTorch
+- Hugging Face
+- Data Engineering co ban
+
+Ky nang mem:
+- Huong dan nghien cuu
+- Trinh bay hoc thuat
+- Tu duy phan tich
+- Hop tac
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Quoc te Sai Gon
+  Thoi gian: 2020 - hien tai
+  Vai tro: Giang vien AI
+  Mo ta:
+  + Day NLP, Machine Learning va AI Ethics.
+  + Huong dan sinh vien cong bo bai bao hoi thao trong nuoc.
+
+- Vien Nghien cuu Du lieu
+  Thoi gian: 2018 - 2020
+  Vai tro: Nghien cuu vien kiem giang vien
+  Mo ta:
+  + Xay dung cac workshop ve text classification va chatbot.
+
+Hoc van:
+- Tien si Khoa hoc may tinh, Dai hoc Quoc gia Ha Noi, 2019
+- Thac si Khoa hoc du lieu, Dai hoc Bach Khoa Ha Noi, 2015

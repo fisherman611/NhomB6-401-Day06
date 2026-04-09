@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Luu Khanh An
+Email: an.luu.cs@gmail.com
+So dien thoai: 0932999000
+Vi tri ung tuyen: Giang vien Computer Science
+
+Tom tat:
+Ung vien chuyen giang day he dieu hanh, mang may tinh va lap trinh he thong.
+Co kinh nghiem phat trien bai lab thuc hanh va do an he thong cho sinh vien.
+Uu tien dao tao ky nang nen tang va nang luc tu nghien cuu tai lieu.
+
+Kinh nghiem tong: 8 nam
+
+Ky nang ky thuat:
+- Operating Systems
+- Computer Networks
+- C
+- C++
+- Python
+- Linux
+- Bash
+
+Ky nang mem:
+- Su pham
+- Quan tri hoc phan
+- Huong dan do an
+- Ky luat
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Cong nghe TP.HCM
+  Thoi gian: 2019 - hien tai
+  Vai tro: Giang vien CS
+  Mo ta:
+  + Day He dieu hanh va Mang may tinh.
+  + Xay dung bo bai lab Linux va process scheduling.
+
+- Cao dang Ky thuat
+  Thoi gian: 2016 - 2019
+  Vai tro: Giang vien CNTT
+  Mo ta:
+  + Day C programming va Cau truc may tinh.
+
+Hoc van:
+- Thac si Ky thuat may tinh, Dai hoc Bach Khoa TP.HCM, 2016
+- Cu nhan Cong nghe thong tin, Dai hoc Khoa hoc Tu nhien TP.HCM, 2013

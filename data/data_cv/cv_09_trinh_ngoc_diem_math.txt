@@ -1,0 +1,44 @@
+HO SO UNG VIEN
+Ho ten: Trinh Ngoc Diem
+Email: diem.trinh.math@gmail.com
+So dien thoai: 0973555666
+Vi tri ung tuyen: Giang vien Toan
+
+Tom tat:
+Ung vien co kinh nghiem giang day Toan cho sinh vien khoi ky thuat va kinh te.
+Tap trung vao viec giup sinh vien hieu ban chat va ung dung cong thuc vao bai toan thuc te.
+Co kha nang thiet ke ngan hang cau hoi va de thi.
+
+Kinh nghiem tong: 5 nam
+
+Ky nang ky thuat:
+- Giai tich
+- Dai so
+- Xac suat thong ke
+- Toan roi rac co ban
+- R co ban
+- LaTeX
+
+Ky nang mem:
+- Kien nhan
+- Truyen dat
+- Dan dat thao luan
+- Phan hoi xay dung
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Van Lang
+  Thoi gian: 2021 - hien tai
+  Vai tro: Giang vien Toan
+  Mo ta:
+  + Day Toan cao cap va Xac suat thong ke.
+  + Bien soan de thi va bo cau hoi danh gia nang luc.
+
+- Trung tam Giao duc Thuong xuyen
+  Thoi gian: 2019 - 2021
+  Vai tro: Giang vien Toan
+  Mo ta:
+  + Day bo tro toan cho sinh vien nam dau.
+
+Hoc van:
+- Thac si Toan hoc, Dai hoc Su pham TP.HCM, 2020
+- Cu nhan Toan ung dung, Dai hoc Khoa hoc Tu nhien TP.HCM, 2018

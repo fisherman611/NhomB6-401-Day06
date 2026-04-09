@@ -1,0 +1,44 @@
+HO SO UNG VIEN
+Ho ten: Vo Anh Thu
+Email: thu.vo.math@gmail.com
+So dien thoai: 0907444555
+Vi tri ung tuyen: Giang vien Toan
+
+Tom tat:
+Ung vien giang day Toan dai cuong va Toan kinh te voi kinh nghiem to chuc lop hoc ket hop cong nghe.
+Co kinh nghiem xay dung hoc lieu so va bai tap tu danh gia.
+Mong muon dong gop vao dao tao toan theo huong ung dung.
+
+Kinh nghiem tong: 4 nam
+
+Ky nang ky thuat:
+- Toan cao cap
+- Xac suat thong ke
+- Toi uu hoa
+- Excel
+- Python co ban
+- LaTeX
+
+Ky nang mem:
+- Giao tiep su pham
+- To chuc hoc lieu
+- Lam viec nhom
+- Chu dong
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Kinh te - Tai chinh
+  Thoi gian: 2022 - hien tai
+  Vai tro: Giang vien Toan ung dung
+  Mo ta:
+  + Day Toan cao cap cho khoi kinh te.
+  + Ho tro sinh vien trong cac bai toan thong ke ung dung.
+
+- Trung tam boi duong Dai hoc
+  Thoi gian: 2020 - 2022
+  Vai tro: Giang vien
+  Mo ta:
+  + Day Xac suat thong ke cho sinh vien nam nhat.
+
+Hoc van:
+- Thac si Toan ung dung, Dai hoc Kinh te TP.HCM, 2021
+- Cu nhan Su pham Toan, Dai hoc Su pham TP.HCM, 2019

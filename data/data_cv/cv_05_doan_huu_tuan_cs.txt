@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Doan Huu Tuan
+Email: tuan.doan.cs@gmail.com
+So dien thoai: 0986333444
+Vi tri ung tuyen: Giang vien Computer Science
+
+Tom tat:
+Ung vien giang day cac hoc phan nen tang cua Khoa hoc may tinh voi dinh huong thuc hanh.
+Kinh nghiem huong dan sinh vien xay dung do an backend va he thong phan mem.
+Chu trong kha nang tu hoc va ky nang giai quyet van de cho sinh vien.
+
+Kinh nghiem tong: 6 nam
+
+Ky nang ky thuat:
+- Java
+- Python
+- C#
+- Software Engineering
+- Operating Systems
+- Database Design
+- Linux
+
+Ky nang mem:
+- Trinh bay ro rang
+- Mentoring
+- Quan ly lop hoc
+- Lam viec nhom
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Mo TP.HCM
+  Thoi gian: 2021 - hien tai
+  Vai tro: Giang vien CS
+  Mo ta:
+  + Day mon Cong nghe phan mem va Co so du lieu.
+  + Huong dan sinh vien lam do an web backend.
+
+- Hoc vien Ky thuat So
+  Thoi gian: 2019 - 2021
+  Vai tro: Giang vien
+  Mo ta:
+  + Day Java core va Lap trinh huong doi tuong.
+
+Hoc van:
+- Thac si Khoa hoc may tinh, Dai hoc Bach Khoa TP.HCM, 2019
+- Cu nhan Cong nghe thong tin, Dai hoc Bach Khoa TP.HCM, 2016

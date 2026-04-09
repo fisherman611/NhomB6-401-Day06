@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Tran Thu Ha
+Email: ha.tran.cs@gmail.com
+So dien thoai: 0914555666
+Vi tri ung tuyen: Giang vien Computer Science
+
+Tom tat:
+Ung vien chuyen giang day lap trinh, cau truc du lieu va giai thuat cho sinh vien CNTT.
+Kinh nghiem xay dung hoc lieu va to chuc bai tap theo huong tu duy giai quyet van de.
+Mong muon phat trien moi truong hoc tap thuc hanh cho sinh vien.
+
+Kinh nghiem tong: 7 nam
+
+Ky nang ky thuat:
+- C++
+- Java
+- Python
+- Data Structures
+- Algorithms
+- Database Systems
+- Git
+
+Ky nang mem:
+- Truyen dat de hieu
+- Quan ly lop hoc
+- Co van hoc tap
+- Giao tiep
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Can Tho
+  Thoi gian: 2020 - hien tai
+  Vai tro: Giang vien Khoa hoc may tinh
+  Mo ta:
+  + Giang day OOP, Cau truc du lieu va giai thuat.
+  + Huong dan sinh vien thi lap trinh hoc thuat cap truong.
+
+- Cao dang Cong nghe So
+  Thoi gian: 2018 - 2020
+  Vai tro: Giang vien CNTT
+  Mo ta:
+  + Day lap trinh C/C++ va Co so du lieu.
+
+Hoc van:
+- Thac si Khoa hoc may tinh, Dai hoc Can Tho, 2017
+- Cu nhan Cong nghe thong tin, Dai hoc Can Tho, 2015

@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Nguyen Thanh Lam
+Email: lam.nguyen.ai@gmail.com
+So dien thoai: 0903111222
+Vi tri ung tuyen: Giang vien AI
+
+Tom tat:
+Ung vien co kinh nghiem giang day AI va khoa hoc du lieu tai dai hoc va trung tam dao tao.
+Tap trung vao machine learning, deep learning va ung dung AI trong giao duc.
+Muc tieu dong gop cho chuong trinh dao tao AI theo huong thuc hanh.
+
+Kinh nghiem tong: 8 nam
+
+Ky nang ky thuat:
+- Machine Learning
+- Deep Learning
+- NLP
+- Python
+- PyTorch
+- TensorFlow
+- SQL
+
+Ky nang mem:
+- Su pham
+- Trinh bay hoc thuat
+- Huong dan sinh vien nghien cuu
+- Lam viec nhom
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Cong nghe va Thong tin
+  Thoi gian: 2019 - hien tai
+  Vai tro: Giang vien AI
+  Mo ta:
+  + Giang day cac mon Nhap mon AI, Machine Learning, Deep Learning.
+  + Huong dan do an AI cho sinh vien nam cuoi.
+
+- Trung tam DataLab
+  Thoi gian: 2016 - 2019
+  Vai tro: Giang vien part-time
+  Mo ta:
+  + Day khoa Python for Data Science va ML can ban.
+
+Hoc van:
+- Tien si Khoa hoc may tinh, Dai hoc Quoc gia TP.HCM, 2018
+- Thac si Khoa hoc may tinh, Dai hoc Bach Khoa Ha Noi, 2014

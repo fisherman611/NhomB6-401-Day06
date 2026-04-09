@@ -1,0 +1,44 @@
+HO SO UNG VIEN
+Ho ten: Le Minh Khoi
+Email: khoi.le.math@gmail.com
+So dien thoai: 0938777888
+Vi tri ung tuyen: Giang vien Toan
+
+Tom tat:
+Ung vien co kinh nghiem giang day Toan cao cap, Giai tich va Xac suat thong ke cho khoi ky thuat.
+Quan tam den viec ket noi toan hoc voi bai toan ung dung trong du lieu va kinh doanh.
+Luon uu tien phuong phap day hoc ro rang, logic va de theo doi.
+
+Kinh nghiem tong: 9 nam
+
+Ky nang ky thuat:
+- Giai tich
+- Dai so tuyen tinh
+- Xac suat thong ke
+- Toan ung dung
+- Matlab
+- LaTeX
+
+Ky nang mem:
+- Tu duy logic
+- Truyen dat
+- Huong dan sinh vien
+- Quan ly hoc phan
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Su pham Ky thuat TP.HCM
+  Thoi gian: 2017 - hien tai
+  Vai tro: Giang vien Toan
+  Mo ta:
+  + Giang day Toan cao cap va Xac suat thong ke.
+  + Xay dung bo bai tap ung dung cho sinh vien ky thuat.
+
+- Truong Dai hoc Tra Vinh
+  Thoi gian: 2014 - 2017
+  Vai tro: Giang vien Toan
+  Mo ta:
+  + Day Giai tich va Dai so cho nam nhat.
+
+Hoc van:
+- Tien si Toan hoc, Dai hoc Su pham Ha Noi, 2016
+- Thac si Toan giai tich, Dai hoc Khoa hoc Tu nhien TP.HCM, 2012

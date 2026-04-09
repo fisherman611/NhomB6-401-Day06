@@ -1,0 +1,45 @@
+HO SO UNG VIEN
+Ho ten: Phung Gia Han
+Email: giahan.phung.ai@gmail.com
+So dien thoai: 0946222111
+Vi tri ung tuyen: Giang vien AI
+
+Tom tat:
+Ung vien giang day AI theo huong ung dung va dao tao du an cho sinh vien nam cuoi.
+Co kinh nghiem ket hop doanh nghiep de xay dung bai toan du lieu thuc te cho lop hoc.
+Mong muon phat trien cac hoc phan AI co tinh lien nganh.
+
+Kinh nghiem tong: 6 nam
+
+Ky nang ky thuat:
+- Machine Learning
+- Computer Vision
+- MLOps can ban
+- Python
+- OpenCV
+- FastAPI
+- SQL
+
+Ky nang mem:
+- To chuc workshop
+- Giao tiep
+- Lam viec voi doanh nghiep
+- Huong dan nhom
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Hoa Sen
+  Thoi gian: 2021 - hien tai
+  Vai tro: Giang vien AI
+  Mo ta:
+  + Day Computer Vision va AI Product Development.
+  + Huong dan sinh vien lam capstone ve nhan dien hinh anh.
+
+- Cong ty EdTech FutureSkill
+  Thoi gian: 2019 - 2021
+  Vai tro: Chuyen vien dao tao AI
+  Mo ta:
+  + Day khoa AI can ban cho sinh vien va nguoi di lam.
+
+Hoc van:
+- Thac si Khoa hoc du lieu, Dai hoc Quoc te, 2019
+- Cu nhan Cong nghe thong tin, Dai hoc Khoa hoc Tu nhien TP.HCM, 2016

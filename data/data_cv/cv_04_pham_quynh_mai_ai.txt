@@ -1,0 +1,44 @@
+HO SO UNG VIEN
+Ho ten: Pham Quynh Mai
+Email: mai.pham.ai@gmail.com
+So dien thoai: 0975222333
+Vi tri ung tuyen: Giang vien AI
+
+Tom tat:
+Ung vien co kinh nghiem giang day AI ung dung trong kinh doanh va y te.
+Thanh thao thiet ke mon hoc theo huong project-based learning.
+Da huong dan nhieu nhom sinh vien xay dung san pham AI nho.
+
+Kinh nghiem tong: 5 nam
+
+Ky nang ky thuat:
+- Machine Learning
+- Computer Vision
+- Python
+- Scikit-learn
+- TensorFlow
+- Data Visualization
+
+Ky nang mem:
+- Su pham
+- Quan ly thoi gian
+- Hop tac lien khoa
+- Phan bien
+
+Kinh nghiem lam viec:
+- Truong Dai hoc Kinh te TP.HCM
+  Thoi gian: 2022 - hien tai
+  Vai tro: Giang vien AI ung dung
+  Mo ta:
+  + Day AI for Business va Data Mining.
+  + Huong dan de tai ung dung AI trong du bao nhu cau.
+
+- Trung tam Cong nghe SANG
+  Thoi gian: 2020 - 2022
+  Vai tro: Giang vien
+  Mo ta:
+  + To chuc khoa hoc thuc hanh machine learning cho sinh vien.
+
+Hoc van:
+- Thac si Khoa hoc du lieu, Dai hoc Quoc te, 2020
+- Cu nhan Cong nghe thong tin, Dai hoc Da Nang, 2017
