@@ -1,0 +1,16 @@
+Giảng viên An toàn thông tin và Mạng máy tính
+
+Công việc chính:
+- Giảng dạy các khóa học về Network Security, Cryptography và Ethical Hacking.
+- Quản lý phòng lab thực hành mạng của khoa.
+- Tư vấn về bảo mật cho các hệ thống nội bộ của trường.
+
+Yêu cầu:
+- Có các chứng chỉ bảo mật uy tín như CEH, CISSP hoặc CCNP Security.
+- Hiểu biết về lỗ hổng OWASP và Pentesting.
+- Kỹ năng xử lý sự cố mạng tốt.
+- Kinh nghiệm: 2-3 năm (Middle).
+
+Kỹ năng ưu tiên:
+- Từng tham gia các giải đấu CTF.
+- Có kinh nghiệm về Cloud Security (Azure/Google Cloud).

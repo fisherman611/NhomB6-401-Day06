@@ -1,0 +1,19 @@
+Lecturer in Computer Science (International Program)
+
+Location: Hanoi/HCMC.
+Role: Delivering CS curriculum in English to international students.
+
+Key Responsibilities:
+- Teach Database Management Systems, Web Development, and Software Requirements.
+- Mentor students in English-speaking environments.
+- Coordinate with partner universities abroad.
+
+Requirements:
+- Master's degree in CS from an English-speaking country.
+- High English proficiency (IELTS 7.5 or equivalent).
+- Strong coding skills in JavaScript/TypeScript and SQL.
+- Experience Level: Junior/Middle.
+
+Preferred:
+- Experience with modern web stacks (MERN/Next.js).
+- Familiarity with international accreditation standards like ABET.

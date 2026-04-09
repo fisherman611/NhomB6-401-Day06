@@ -1,0 +1,19 @@
+Vị trí: Giảng viên Toán ứng dụng (Applied Mathematics Lecturer)
+
+Mô tả:
+Giảng dạy Toán học phục vụ cho các ngành kỹ thuật và công nghệ.
+
+Trách nhiệm:
+- Giảng dạy Giải tích, Đại số tuyến tính và Lý thuyết đồ thị.
+- Phát triển các ví dụ ứng dụng toán học trong lập trình và tối ưu hóa.
+- Tham gia nghiên cứu trong các nhóm chuyên môn của Viện Toán.
+
+Yêu cầu:
+- Tốt nghiệp Tiến sĩ chuyên ngành Toán học hoặc Toán ứng dụng.
+- Khả năng tư duy logic và trừu tượng cực tốt.
+- Thành thạo các công cụ Matlab hoặc Mathematica.
+- Kinh nghiệm: Senior.
+
+Kỹ năng ưu tiên:
+- Biết lập trình Python hoặc R để minh họa toán học.
+- Có niềm đam mê với việc ứng dụng toán vào giải quyết các vấn đề thực tế.

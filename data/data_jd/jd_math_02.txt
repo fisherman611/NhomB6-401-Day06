@@ -1,0 +1,16 @@
+Giảng viên Toán cho AI và Khoa học Dữ liệu
+
+Nhiệm vụ:
+- Đào tạo kiến thức Toán nền tảng cho AI: Đại số tuyến tính cho ML, Xác suất cho DS và Tối ưu hóa.
+- Xây dựng bài tập thực hành toán học bằng Python.
+- Hướng dẫn sinh viên hiểu bản chất thuật toán qua các công thức toán học.
+
+Yêu cầu:
+- Thạc sĩ Toán tin hoặc Thống kê.
+- Hiểu biết sâu về Linear Algebra, Calculus, và Optimization.
+- Kỹ năng lập trình cơ bản với Python (NumPy, Scipy).
+- Cấp độ: Middle.
+
+Ưu tiên:
+- Đã từng làm các dự án Data Science thực tế.
+- Khả năng đơn giản hóa các khái niệm toán học phức tạp cho sinh viên CNTT.

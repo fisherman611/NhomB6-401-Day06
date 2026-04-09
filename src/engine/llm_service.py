@@ -1,5 +1,8 @@
 import os
+import json
+from typing import Type, TypeVar
 from openai import OpenAI
+from pydantic import BaseModel
 from dotenv import load_dotenv
 
 load_dotenv()
@@ -23,6 +26,32 @@ class LLMService:
             top_p=self.top_p,
         )
         return response.choices[0].message.content
+
+    def get_completion_with_structured_output(self, prompt: str, response_model: Type[BaseModel], model="openai/gpt-oss-20b"):
+        messages = [{"role": "user", "content": prompt}]
+        
+        try:
+            # Try using the beta parse method for better Pydantic integration
+            response = self.client.beta.chat.completions.parse(
+                model=model,
+                messages=messages,
+                response_format=response_model,
+                temperature=self.temperature,
+                top_p=self.top_p,
+            )
+            return response.choices[0].message.parsed
+        except Exception as e:
+            # Fallback for models/endpoints that don't support beta.chat.completions.parse
+            # Force JSON mode if possible or just parse the text
+            response = self.client.chat.completions.create(
+                model=model,
+                messages=messages,
+                response_format={"type": "json_object"},
+                temperature=self.temperature,
+                top_p=self.top_p,
+            )
+            content = response.choices[0].message.content
+            return response_model.model_validate_json(content)
 
 if __name__ == "__main__":
     llm_service = LLMService()
