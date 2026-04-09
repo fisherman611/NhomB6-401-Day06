@@ -1,0 +1,21 @@
+{
+  "full_name": "Luu Khanh An",
+  "years_of_experience": 8.0,
+  "technical_skills": [
+    "Operating Systems",
+    "Computer Networks",
+    "C",
+    "C++",
+    "Python",
+    "Linux",
+    "Bash"
+  ],
+  "soft_skills": [
+    "Su pham",
+    "Quan tri hoc phan",
+    "Huong dan do an",
+    "Ky luat"
+  ],
+  "education": "Thạc sĩ Kỹ thuật máy tính, Đại học Bách Khoa TP.HCM, 2016",
+  "summary": "Giảng viên Computer Science với 8 năm kinh nghiệm trong việc giảng dạy hệ điều hành, phần cứng và lập trình hệ thống. Có kinh nghiệm phát triển bài lab thực hành và hướng dẫn sinh viên thực hiện dự án hệ thống. Được đánh giá là người đào tạo năng lực và năng lực nghiên cứu tài liệu."
+}

@@ -1,0 +1,21 @@
+{
+  "full_name": "Tran Thu Ha",
+  "years_of_experience": 7.0,
+  "technical_skills": [
+    "C++",
+    "Java",
+    "Python",
+    "Data Structures",
+    "Algorithms",
+    "Database Systems",
+    "Git"
+  ],
+  "soft_skills": [
+    "Truyền đạt để hiểu",
+    "Quản lý lớp học",
+    "Cố vấn học tập",
+    "Giao tiếp"
+  ],
+  "education": "Thạc sĩ Khoa học máy tính, Đại học Cần Thơ, 2017",
+  "summary": "Giảng viên chuyên gia dạy lập trình, cấu trúc dữ liệu và giải thuật cho sinh viên CNTT với 7 năm kinh nghiệm. Có kinh nghiệm xây dựng học liệu và tổ chức bài tập theo hướng tư duy giải quyết vấn đề, mong muốn phát triển môi trường học tập thực hành cho sinh viên."
+}

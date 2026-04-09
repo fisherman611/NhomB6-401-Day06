@@ -1,0 +1,21 @@
+{
+  "full_name": "Nguyen Duc Huy",
+  "years_of_experience": 7.0,
+  "technical_skills": [
+    "NLP",
+    "Machine Learning",
+    "Deep Learning",
+    "Python",
+    "PyTorch",
+    "Hugging Face",
+    "Data Engineering"
+  ],
+  "soft_skills": [
+    "Huong dan nghien cuu",
+    "Trinh bay hoc thuat",
+    "Tu duy phan tich",
+    "Hop tac"
+  ],
+  "education": "Bachelor of Computer Science, National University of Hanoi, 2019",
+  "summary": "Nguyen Duc Huy is an AI professor with 7 years of experience in research and teaching, specializing in NLP, machine learning, and deep learning. He has led workshops on text classification and chatbot development, and mentors students in AI ethics and research projects. His technical expertise includes Python, PyTorch, Hugging Face, and data engineering fundamentals."
+}

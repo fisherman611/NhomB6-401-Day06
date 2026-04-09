@@ -1,0 +1,21 @@
+{
+  "full_name": "Nguyen Thanh Lam",
+  "years_of_experience": 8.0,
+  "technical_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "NLP",
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "SQL"
+  ],
+  "soft_skills": [
+    "Su pham",
+    "Trinh bay hoc thuat",
+    "Huong dan sinh vien nghien cuu",
+    "Lam viec nhom"
+  ],
+  "education": "Thạc sĩ Khoa học máy tính, Đại học Bách Khoa Hà Nội",
+  "summary": "Nguyen Thanh Lam is an AI lecturer with 8 years of experience teaching AI, machine learning, and deep learning at university and training centers. He specializes in machine learning, deep learning, NLP, and has strong technical skills in Python, PyTorch, TensorFlow, and SQL. He also possesses soft skills in project management, teaching methodology, student mentorship, and teamwork."
+}

@@ -1,0 +1,20 @@
+{
+  "full_name": "Pham Quynh Mai",
+  "years_of_experience": 5.0,
+  "technical_skills": [
+    "Machine Learning",
+    "Computer Vision",
+    "Python",
+    "Scikit-learn",
+    "TensorFlow",
+    "Data Visualization"
+  ],
+  "soft_skills": [
+    "Su pham",
+    "Quan ly thoi gian",
+    "Hop tac lien khoa",
+    "Phan bien"
+  ],
+  "education": "Thạc sĩ Khoa học dữ liệu, Đại học Quốc tế, 2020",
+  "summary": "Ứng viên có 5 năm kinh nghiệm giảng dạy AI trong kinh doanh và y tế, thiết kế môn học dựa trên dự án và hướng dẫn nhiều nhóm sinh viên xây dựng sản phẩm AI. Đam mê kết hợp kiến thức chuyên môn với kỹ năng mềm như quản lý thời gian và hợp tác liên khoa."
+}

@@ -1,0 +1,21 @@
+{
+  "full_name": "Doan Huu Tuan",
+  "years_of_experience": 6.0,
+  "technical_skills": [
+    "Java",
+    "Python",
+    "C#",
+    "Software Engineering",
+    "Operating Systems",
+    "Database Design",
+    "Linux"
+  ],
+  "soft_skills": [
+    "Trinh bay ro rang",
+    "Mentoring",
+    "Quan ly lop hoc",
+    "Lam viec nhom"
+  ],
+  "education": "Thac si Khoa hoc may tinh, Dai hoc Bach Khoa TP.HCM, 2019",
+  "summary": "Giảng viên Computer Science với 6 năm kinh nghiệm giảng dạy và hướng dẫn sinh viên xây dựng dự án backend. Chuyên môn trong Java, Python, C# và thiết kế hệ thống, đồng thời có kỹ năng truyền đạt, mentoring và quản lý lớp học."
+}

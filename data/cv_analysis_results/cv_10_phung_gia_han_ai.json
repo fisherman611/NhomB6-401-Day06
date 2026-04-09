@@ -1,0 +1,21 @@
+{
+  "full_name": "Phung Gia Han",
+  "years_of_experience": 6.0,
+  "technical_skills": [
+    "Machine Learning",
+    "Computer Vision",
+    "MLOps can ban",
+    "Python",
+    "OpenCV",
+    "FastAPI",
+    "SQL"
+  ],
+  "soft_skills": [
+    "To chuc workshop",
+    "Giao tiep",
+    "Lam viec voi doanh nghiep",
+    "Huong dan nhom"
+  ],
+  "education": "Thạc sĩ Khoa học dữ liệu, Đại học Quốc tế",
+  "summary": "Giảng viên AI với 6 năm kinh nghiệm, chuyên môn trong Machine Learning, Computer Vision và MLOps. Đã giảng dạy tại Đại học Hòa Sen và EdTech FutureSkill, hướng dẫn sinh viên thực hiện capstone và khóa học AI. Tập trung vào ứng dụng thực tiễn và phát triển các bộ môn AI liên ngành."
+}
