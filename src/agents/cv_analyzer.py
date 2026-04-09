@@ -1,14 +1,19 @@
 import json
+import logging
 import re
 from pathlib import Path
 from typing import Any, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 from src.engine.llm_service import LLMService
 
+logger = logging.getLogger(__name__)
+
 
 class CVAnalysis(BaseModel):
+    model_config = ConfigDict(extra="ignore")
+
     full_name: str = Field(default="")
     years_of_experience: float = Field(default=0)
     technical_skills: List[str] = Field(default_factory=list)
@@ -27,31 +32,47 @@ class CVAnalyzer:
         with open(self.prompt_path, "r", encoding="utf-8") as f:
             return f.read()
 
+    def _try_parse_json_object(self, fragment: str) -> Optional[dict[str, Any]]:
+        fragment = fragment.strip()
+        if not fragment:
+            return None
+        try:
+            out = json.loads(fragment)
+            if isinstance(out, dict):
+                return out
+        except json.JSONDecodeError:
+            pass
+        start = fragment.find("{")
+        end = fragment.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            try:
+                out = json.loads(fragment[start : end + 1])
+                if isinstance(out, dict):
+                    return out
+            except json.JSONDecodeError:
+                pass
+        return None
+
     def _extract_json_object(self, text: str) -> dict[str, Any]:
         """
         Cố gắng bóc tách JSON object từ response text (kể cả khi bị bọc markdown).
+        Thử lần lượt từng khối ``` ... ``` (tránh greedy một lần bắt nhầm nhiều block).
         """
         if not text:
             raise ValueError("LLM response is empty")
 
         cleaned = text.strip()
 
-        # Trường hợp model bọc trong ```json ... ```
-        fenced = re.search(r"```(?:json)?\s*(\{.*\})\s*```", cleaned, flags=re.DOTALL)
-        if fenced:
-            return json.loads(fenced.group(1))
+        # Mỗi fence ``` ... ``` thử parse riêng (ưu tiên khối đầu tiên parse được)
+        for m in re.finditer(r"```(?:json)?\s*([\s\S]*?)\s*```", cleaned):
+            block = m.group(1)
+            parsed = self._try_parse_json_object(block)
+            if parsed is not None:
+                return parsed
 
-        # Trường hợp trả JSON thuần
-        try:
-            return json.loads(cleaned)
-        except json.JSONDecodeError:
-            pass
-
-        # Trường hợp có text thừa trước/sau JSON
-        start = cleaned.find("{")
-        end = cleaned.rfind("}")
-        if start != -1 and end != -1 and end > start:
-            return json.loads(cleaned[start : end + 1])
+        parsed = self._try_parse_json_object(cleaned)
+        if parsed is not None:
+            return parsed
 
         raise ValueError("Could not parse JSON object from LLM response")
 
@@ -79,18 +100,17 @@ class CVAnalyzer:
                 prompt=prompt,
                 response_model=CVAnalysis,
             )
-            if isinstance(parsed, CVAnalysis):
-                return self._model_to_dict(parsed)
-            if isinstance(parsed, dict):
-                return CVAnalysis(**parsed).model_dump() if hasattr(CVAnalysis, "model_dump") else CVAnalysis(**parsed).dict()
-        except Exception:
-            # Fallback parse text thường nếu endpoint/model chưa hỗ trợ parse API.
-            pass
+            return CVAnalysis.model_validate(parsed).model_dump()
+        except Exception as e:
+            logger.warning(
+                "Structured CV output failed (%s); using text completion fallback",
+                e,
+            )
 
         # 4. Fallback: gọi completion thường rồi tự parse/validate.
         raw_response = self.llm_service.get_completion(prompt)
         parsed_json = self._extract_json_object(raw_response or "")
-        validated = CVAnalysis(**parsed_json)
+        validated = CVAnalysis.model_validate(parsed_json)
         return self._model_to_dict(validated)
 
 if __name__ == "__main__":
