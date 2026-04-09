@@ -185,51 +185,48 @@ def calculate_matching_score_v2(
     """
     Matching score version 2:
     - Keyword matching robust hơn: normalize/synonym/fuzzy coverage.
-    - Hỗ trợ soft-skills nếu JD cung cấp.
     - Semantic score dựa trên so sánh summary (hash embedding, không gọi API).
-    - Trọng số tự động chuẩn hóa theo thành phần dữ liệu đang có.
+    - Trọng số động dựa trên dữ liệu có sẵn.
+    
+    Thành phần:
+    1. Required skills (50%): Kỹ năng bắt buộc
+    2. Preferred skills (20%): Kỹ năng ưu tiên
+    3. Summary embedding (30%): Độ tương đồng ngữ cảnh qua summary
     """
     try:
+        # Extract và normalize skills từ CV
         cv_tech_skills = _normalize_skill_list(cv_data.get("technical_skills", []))
-        cv_soft_skills = _normalize_skill_list(cv_data.get("soft_skills", []))
+        cv_summary = str(cv_data.get("summary", "")).strip()
 
+        # Extract và normalize từ JD
         jd_req_skills = _normalize_skill_list(jd_data.get("required_skills", []))
         jd_pref_skills = _normalize_skill_list(jd_data.get("preferred_skills", []))
-        jd_soft_skills = _normalize_skill_list(jd_data.get("soft_skills", []))
-        jd_critical_skills = _normalize_skill_list(jd_data.get("critical_skills", []))
-
-        # 1) Keyword coverage (exact + fuzzy)
-        score_req = _coverage_score(jd_req_skills, cv_tech_skills) if jd_req_skills else 0.0
-        score_pref = _coverage_score(jd_pref_skills, cv_tech_skills) if jd_pref_skills else 0.0
-        score_soft = _coverage_score(jd_soft_skills, cv_soft_skills) if jd_soft_skills else 0.0
-
-        # 2) Summary similarity (local hash embedding, no API cost)
-        cv_summary = str(cv_data.get("summary", "")).strip()
         jd_summary = str(jd_data.get("summary", "")).strip()
-        score_semantic = _summary_similarity(cv_summary, jd_summary)
 
-        # 3) Dynamic weighted blending
-        # Base weights: req 45%, pref 15%, soft 10%, semantic 30%.
+        # 1) Keyword coverage cho required skills
+        score_req = _coverage_score(jd_req_skills, cv_tech_skills) if jd_req_skills else 0.0
+        
+        # 2) Keyword coverage cho preferred skills
+        score_pref = _coverage_score(jd_pref_skills, cv_tech_skills) if jd_pref_skills else 0.0
+
+        # 3) Summary embedding similarity (local hash embedding, no API cost)
+        score_semantic = _summary_similarity(cv_summary, jd_summary) if cv_summary and jd_summary else 0.0
+
+        # 4) Dynamic weighted blending
+        # Trọng số cơ bản: req 50%, pref 20%, semantic 30%
         components = {
-            "req": (score_req, 0.45, bool(jd_req_skills)),
-            "pref": (score_pref, 0.15, bool(jd_pref_skills)),
-            "soft": (score_soft, 0.10, bool(jd_soft_skills)),
+            "req": (score_req, 0.50, bool(jd_req_skills)),
+            "pref": (score_pref, 0.20, bool(jd_pref_skills)),
             "semantic": (score_semantic, 0.30, bool(cv_summary) and bool(jd_summary)),
         }
 
+        # Chỉ tính trọng số cho các thành phần có dữ liệu
         active = {k: v for k, v in components.items() if v[2]}
         if not active:
             return 0.0
 
         total_weight = sum(v[1] for v in active.values())
         blended_score = sum((score * weight) for score, weight, _ in active.values()) / total_weight
-
-        # 4) Penalty for missing critical skills (if JD provides them)
-        if jd_critical_skills:
-            critical_score = _coverage_score(jd_critical_skills, cv_tech_skills, threshold=0.65)
-            missing_ratio = max(0.0, 1.0 - critical_score)
-            # Penalize up to 30% when critical skills are largely missing.
-            blended_score *= 1.0 - (0.30 * missing_ratio)
 
         return round(max(0.0, min(1.0, blended_score)) * 100, 2)
 
@@ -264,12 +261,48 @@ def rank_candidates(candidates: List[Dict[str, Any]], jd_data: Dict[str, Any]) -
 if __name__ == "__main__":
     # Test nhanh logic matching
     mock_cv = {
-        "technical_skills": ["Python", "SQL", "Machine Learning", "Docker"]
-    }
+  "full_name": "Le Thao Nguyen",
+  "years_of_experience": 5.0,
+  "technical_skills": [
+    "Manual Testing",
+    "Test Case Design",
+    "Jira",
+    "Postman",
+    "SQL"
+  ],
+  "soft_skills": [
+    "Can than",
+    "Giao tiep noi bo",
+    "Lam viec theo quy trinh",
+    "Quan ly deadline"
+  ],
+  "education": "Cử nhân Hệ thống thông tin",
+  "summary": "Ứng viên có 5 năm kinh nghiệm trong lĩnh vực kiểm thử phần mềm, chuyên làm QA Engineer và Tester. Hiện chưa có kinh nghiệm giảng dạy hoặc làm việc trong lĩnh vực trí tuệ nhân tạo. Không đáp ứng đầy đủ yêu cầu Senior AI Instructor."
+}
+
     mock_jd = {
-        "required_skills": ["Python", "SQL", "Deep Learning"],
-        "preferred_skills": ["Docker", "Kubernetes"]
-    }
+  "job_title": "Giảng viên Cao cấp Trí tuệ Nhân tạo (Senior AI Instructor)",
+  "years_of_experience": 5.0,
+  "technical_skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "CNN",
+    "RNN",
+    "Transformers",
+    "Deep Learning",
+    "Reinforcement Learning",
+    "Computer Vision"
+  ],
+  "soft_skills": [
+    "Kỹ năng sư phạm tốt",
+    "Khả năng truyền cảm hứng",
+    "Khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành tốt",
+    "Kỹ năng tư vấn"
+  ],
+  "education": "Tiến sĩ chuyên ngành AI, Computer Science hoặc các lĩnh vực liên quan",
+  "summary": "Giảng viên cao cấp sẽ thiết kế và giảng dạy các chương trình đào tạo chuyên sâu về AI, Deep Learning và Reinforcement Learning, hướng dẫn sinh viên thực hiện dự án nghiên cứu trong lĩnh vực thị giác máy tính. Ngoài ra, họ sẽ cập nhật giáo trình, tham gia nghiên cứu khoa học, công bố bài báo quốc tế và tư vấn cho các nhóm khởi nghiệp công nghệ."
+}
     
     score = calculate_matching_score_v2(mock_cv, mock_jd)
     print(f"Test Matching Score: {score}%")
