@@ -7,3 +7,4 @@ fastapi
 uvicorn
 PyPDF2
 python-docx
+streamlit

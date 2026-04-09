@@ -30,13 +30,13 @@ Vị trí cần tuyển là "Giảng viên Cao cấp Trí tuệ Nhân tạo (Sen
 
 ### Định dạng Output (JSON):
 Trả về duy nhất một JSON object với cấu trúc sau:
-{
+{{
   "full_name": "Tên đầy đủ ứng viên",
   "years_of_experience": 0,
   "technical_skills": ["Skill 1", "Skill 2"],
   "soft_skills": ["Soft skill 1", "Soft skill 2"],
   "education": "Bậc học cao nhất và chuyên ngành",
   "summary": "Tóm tắt ngắn gọn 2-3 câu"
-}
+}}
 
 LƯU Ý: Chỉ trả về mã JSON hợp lệ. Không lời chào, không giải thích, không markdown.

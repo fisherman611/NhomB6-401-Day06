@@ -14,12 +14,12 @@ Bạn là một chuyên gia phân tích tin tuyển dụng (Job Description - JD
 
 ### Định dạng Output (JSON):
 Trả về dữ liệu dưới dạng JSON duy nhất với cấu trúc sau:
-{
+{{
   "job_title": "Tên vị trí chính xác",
   "required_skills": ["Kỹ năng 1", "Kỹ năng 2", ...],
   "preferred_skills": ["Kỹ năng ưu tiên 1", ...],
   "experience_level": "Cấp độ kinh nghiệm",
   "key_responsibilities": ["Trách nhiệm 1", "Trách nhiệm 2", ...]
-}
+}}
 
 LƯU Ý: Chỉ trả về mã JSON. Không bao gồm lời chào, giải thích hoặc trong khối markdown nếu không được yêu cầu cụ thể.
