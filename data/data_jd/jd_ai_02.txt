@@ -1,0 +1,19 @@
+Tuyển dụng Giảng viên AI & Machine Learning
+
+Vị trí: Giảng viên (Lecturer)
+
+Nhiệm vụ:
+- Giảng dạy các môn học cơ sở về Machine Learning và Xử lý ngôn ngữ tự nhiên (NLP).
+- Xây dựng hệ thống bài tập thực hành trên nền tảng Cloud (AWS/GCP).
+- Tổ chức các buổi workshop chia sẻ kiến thức về AI cho sinh viên và cộng đồng.
+
+Yêu cầu:
+- Tốt nghiệp Thạc sĩ trở lên chuyên ngành CNTT hoặc Toán tin.
+- Có kinh nghiệm làm việc với các thư viện Scikit-learn, Keras, HuggingFace.
+- Cấp độ: Junior/Middle (Tối thiểu 2 năm kinh nghiệm).
+- Có chứng chỉ về AI/Data Science từ các tổ chức uy tín là một điểm cộng.
+
+Kỹ năng ưu tiên:
+- Biết sử dụng Docker và Kubernetes.
+- Có kinh nghiệm về MLOps.
+- Kỹ năng giao tiếp và trình bày xuất sắc.

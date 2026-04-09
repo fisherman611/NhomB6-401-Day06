@@ -1,0 +1,19 @@
+Vị trí: Giảng viên Khoa học Máy tính (Core CS Lecturer)
+
+Mô tả:
+Giảng dạy các môn học nền tảng của ngành Khoa học máy tính.
+
+Trách nhiệm:
+- Giảng dạy Cấu trúc dữ liệu và Giải thuật, Hệ điều hành, và Kiến trúc máy tính.
+- Soạn thảo và chấm thi các kỳ thi học thuật cấp trường.
+- Hỗ trợ xây dựng khung chương trình đào tạo đạt chuẩn kiểm định quốc tế.
+
+Yêu cầu:
+- Trình độ: Thạc sĩ/Tiến sĩ Khoa học máy tính.
+- Nắm vững các nguyên lý khoa học máy tính cơ bản.
+- Kỹ năng lập trình tốt với C/C++ và Java.
+- Kinh nghiệm: Senior (Tối thiểu 4 năm giảng dạy).
+
+Ưu tiên:
+- Có kinh nghiệm làm việc tại các công ty phần mềm lớn.
+- Biết về Parallel Computing hoặc Distributed Systems.

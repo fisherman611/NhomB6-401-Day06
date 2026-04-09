@@ -1,0 +1,16 @@
+Giảng viên Kỹ thuật Phần mềm (Software Engineering Instructor)
+
+Nhiệm vụ:
+- Đào tạo về quy trình phát triển phần mềm (Agile/Scrum), Design Patterns và Microservices.
+- Giám sát các đồ án thực tế của sinh viên theo mô hình dự án thực thụ.
+- Phối hợp với phòng quan hệ doanh nghiệp để cập nhật xu hướng công nghệ.
+
+Yêu cầu:
+- 3 năm kinh nghiệm trong vai trò Senior Software Engineer hoặc Tech Lead.
+- Thành thạo ít nhất một framework (Spring Boot, .NET Core, React).
+- Hiểu biết về CI/CD và Unit Testing.
+- Kinh nghiệm: Middle/Senior.
+
+ Ưu tiên:
+- Có chứng chỉ Scrum Master hoặc Cloud Architect.
+- Khả năng giảng dạy bằng tiếng Anh.

@@ -1,0 +1,22 @@
+Vị trí: Giảng viên Cao cấp Trí tuệ Nhân tạo (Senior AI Instructor)
+
+Mô tả công việc:
+Chúng tôi đang tìm kiếm một Giảng viên Cao cấp đam mê và giàu kinh nghiệm để dẫn dắt các khóa học về AI và Machine Learning.
+
+Trách nhiệm chính:
+- Thiết kế và giảng dạy các chương trình đào tạo chuyên sâu về AI, Deep Learning và Reinforcement Learning.
+- Hướng dẫn sinh viên thực hiện các dự án nghiên cứu và đồ án tốt nghiệp trong lĩnh vực thị giác máy tính.
+- Cập nhật giáo trình thường xuyên để phản ánh những tiến bộ mới nhất trong ngành công nghiệp AI.
+- Tham gia các hoạt động nghiên cứu khoa học và công bố bài báo quốc tế.
+- Cố vấn cho các nhóm khởi nghiệp công nghệ trong trường.
+
+Yêu cầu ứng viên:
+- Trình độ: Tiến sĩ chuyên ngành AI, Computer Science hoặc các lĩnh vực liên quan.
+- Ít nhất 5 năm kinh nghiệm làm việc hoặc nghiên cứu trong lĩnh vực AI (Senior level).
+- Kỹ năng bắt buộc: Python, PyTorch/TensorFlow, Kiến thức chuyên sâu về CNN/RNN/Transformers.
+- Có khả năng đọc hiểu tài liệu tiếng Anh chuyên ngành tốt.
+
+Ưu tiên:
+- Có kinh nghiệm triển khai dự án AI thực tế trong doanh nghiệp.
+- Kỹ năng sư phạm tốt và khả năng truyền cảm hứng.
+- Đã có các công bố trên các hội nghị/tạp chí uy tín (NIPS, ICML, CVPR).

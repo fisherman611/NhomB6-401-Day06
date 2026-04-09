@@ -1,0 +1,16 @@
+Giảng viên Xác suất Thống kê và Phân tích Dữ liệu
+
+Nhiệm vụ trọng tâm:
+- Giảng dạy Xác suất Thống kê, Quy hoạch tuyến tính và Phân tích dữ liệu đa biến.
+- Hỗ trợ sinh viên sử dụng phần mềm thống kê (SPSS/R).
+- Biên soạn tài liệu học tập và ngân hàng câu hỏi trắc nghiệm.
+
+Yêu cầu bắt buộc:
+- Tốt nghiệp chuyên ngành Thống kê hoặc Toán kinh tế.
+- Thành thạo ngôn ngữ R hoặc phần mềm SPSS.
+- Có kỹ năng sư phạm và phương pháp giảng dạy hiện đại.
+- Kinh nghiệm: 1-2 năm (Junior/Early Middle).
+
+Kỹ năng ưu tiên:
+- Có kiến thức về Big Data Analytics.
+- Tiếng Anh tốt là một lợi thế.

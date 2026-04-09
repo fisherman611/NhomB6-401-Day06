@@ -1,0 +1,18 @@
+Giảng viên Chuyên gia về Thị giác Máy tính (Computer Vision Specialist)
+
+Mô tả:
+Vị trí này tập trung vào đào tạo các kỹ sư AI chuyên biệt về lĩnh vực Computer Vision.
+
+Trách nhiệm:
+- Giảng dạy chuyên đề Image Processing, Object Detection, và Generative AI (Stable Diffusion/GANs).
+- Phát triển các bộ dữ liệu mẫu phục vụ giảng dạy.
+- Kết nối doanh nghiệp để tạo cơ hội thực tập cho sinh viên.
+
+Yêu cầu bắt buộc:
+- Kinh nghiệm 3+ năm trong lĩnh vực Thị giác máy tính.
+- Thành thạo OpenCV, C++ hoặc Python.
+- Hiểu biết sâu về các kiến trúc YOLO, ResNet, ViT.
+- Kinh nghiệm giảng dạy là một lợi thế lớn.
+
+Kinh nghiệm: Middle.
+Kỹ năng ưu tiên: Tiếng Anh IELTS 6.5+, có kinh nghiệm làm các dự án Edge AI.
