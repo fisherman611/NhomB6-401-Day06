@@ -215,9 +215,9 @@ def calculate_matching_score_v2(
         # 4) Dynamic weighted blending
         # Trọng số cơ bản: req 50%, pref 20%, semantic 30%
         components = {
-            "req": (score_req, 0.50, bool(jd_req_skills)),
-            "pref": (score_pref, 0.20, bool(jd_pref_skills)),
-            "semantic": (score_semantic, 0.30, bool(cv_summary) and bool(jd_summary)),
+            "req": (score_req, 0.7, bool(jd_req_skills)),
+            "pref": (score_pref, 0.2, bool(jd_pref_skills)),
+            "semantic": (score_semantic, 0.1, bool(cv_summary) and bool(jd_summary)),
         }
 
         # Chỉ tính trọng số cho các thành phần có dữ liệu
