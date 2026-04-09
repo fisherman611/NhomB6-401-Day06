@@ -8,7 +8,7 @@ from src.agents.cv_analyzer import CVAnalyzer
 from src.agents.jd_analyzer import JDAnalyzer
 from src.agents.candidate_deep_analyzer import CandidateDeepAnalyzer
 from src.agents.interview_question_generator import InterviewQuestionGenerator
-from src.utils import calculate_matching_score, rank_candidates, calculate_matching_score_v2
+from src.utils import rank_candidates
 
 # Load environment variables (API Keys, etc.)
 load_dotenv()

@@ -68,7 +68,9 @@ def _skill_similarity(skill_a: str, skill_b: str) -> float:
     jaccard = intersection / union if union else 0.0
     seq_ratio = SequenceMatcher(None, skill_a, skill_b).ratio()
 
-    return max(jaccard, seq_ratio * 0.7)
+    # Combine both metrics: Jaccard (60%) + SequenceMatcher (40%)
+    # Jaccard better for token-level, SequenceMatcher better for typos
+    return jaccard * 0.6 + seq_ratio * 0.4
 
 
 def _coverage_score(jd_skills: Sequence[str], cv_skills: Sequence[str], threshold: float = 0.55) -> float:
@@ -77,19 +79,24 @@ def _coverage_score(jd_skills: Sequence[str], cv_skills: Sequence[str], threshol
     if not cv_skills:
         return 0.0
 
-    best_matches = []
+    total_score = 0.0
     for jd_skill in jd_skills:
-        best = max((_skill_similarity(jd_skill, cv_skill) for cv_skill in cv_skills), default=0.0)
-        # Clamp noisy fuzzy matches below threshold.
-        best_matches.append(best if best >= threshold else 0.0)
+        best = 0.0
+        for cv_skill in cv_skills:
+            sim = _skill_similarity(jd_skill, cv_skill)
+            if sim > best:
+                best = sim
+        # Clamp noisy fuzzy matches below threshold
+        total_score += best if best >= threshold else 0.0
 
-    return sum(best_matches) / len(jd_skills)
+    return total_score / len(jd_skills)
 
 
 def _hash_embedding(text: str, dim: int = 256) -> List[float]:
     vector = [0.0] * dim
     for token in re.findall(r"[a-z0-9+#.]+", text.lower()):
-        idx = hash(token) % dim
+        # Use deterministic hash for reproducibility
+        idx = sum(ord(c) * (i + 1) for i, c in enumerate(token)) % dim
         vector[idx] += 1.0
     return vector
 
@@ -189,9 +196,9 @@ def calculate_matching_score_v2(
     - Trọng số động dựa trên dữ liệu có sẵn.
     
     Thành phần:
-    1. Required skills (50%): Kỹ năng bắt buộc
+    1. Required skills (70%): Kỹ năng bắt buộc
     2. Preferred skills (20%): Kỹ năng ưu tiên
-    3. Summary embedding (30%): Độ tương đồng ngữ cảnh qua summary
+    3. Summary embedding (10%): Độ tương đồng ngữ cảnh qua summary
     """
     try:
         # Extract và normalize skills từ CV
@@ -213,7 +220,7 @@ def calculate_matching_score_v2(
         score_semantic = _summary_similarity(cv_summary, jd_summary) if cv_summary and jd_summary else 0.0
 
         # 4) Dynamic weighted blending
-        # Trọng số cơ bản: req 50%, pref 20%, semantic 30%
+        # Trọng số: req 70%, pref 20%, semantic 10%
         components = {
             "req": (score_req, 0.7, bool(jd_req_skills)),
             "pref": (score_pref, 0.2, bool(jd_pref_skills)),
@@ -246,7 +253,7 @@ def rank_candidates(candidates: List[Dict[str, Any]], jd_data: Dict[str, Any]) -
     
     for candidate in candidates:
         cv_analysis = candidate.get("cv_analysis", {})
-        score = calculate_matching_score(cv_analysis, jd_data)
+        score = calculate_matching_score_v2(cv_analysis, jd_data)
         
         # Gắn thêm điểm số vào object ứng viên
         candidate_with_score = candidate.copy()

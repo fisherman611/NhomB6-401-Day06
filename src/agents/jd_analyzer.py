@@ -25,7 +25,8 @@ class JDAnalysis(BaseModel):
 
     job_title: str = Field(default="")
     years_of_experience: float = Field(default=0)
-    technical_skills: List[str] = Field(default_factory=list)
+    required_skills: List[str] = Field(default_factory=list, description="Kỹ năng bắt buộc")
+    preferred_skills: List[str] = Field(default_factory=list, description="Kỹ năng ưu tiên")
     soft_skills: List[str] = Field(default_factory=list)
     education: str = Field(default="")
     summary: str = Field(default="")

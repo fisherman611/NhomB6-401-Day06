@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Tran Khanh Duong",
+    "matching_score": 70.0,
+    "analysis": {
+      "strengths": "Ứng viên có 8 năm kinh nghiệm chuyên sâu trong lĩnh vực AI, với bằng cấp PhD và vị trí Senior AI Instructor tại trường đại học, Senior AI Engineer tại công ty AI Solutions Vietnam. Kỹ năng chuyên môn bao gồm Python, PyTorch, TensorFlow, CNN, RNN, Transformers – hoàn toàn khớp với yêu cầu công việc. Anh đã xuất bản bài báo tại các workshop của ICML và CVPR, chứng minh năng lực nghiên cứu và viết tiếng Anh chuyên môn. Kinh nghiệm giảng dạy dựa trên mô hình dự án, quản lý nhóm nghiên cứu, và tư vấn startup công nghệ, đồng thời đã hướng dẫn nhiều luận văn tốt nghiệp trong lĩnh vực Computer Vision và Reinforcement Learning. Anh còn có kinh nghiệm triển khai huấn luyện trên Cloud GPU, cập nhật chương trình giảng dạy theo xu hướng công nghệ mới.",
+      "weaknesses": "Không có bằng chứng rõ ràng về việc xuất bản tại các hội nghị hàng đầu như NIPS, ICML, CVPR (chỉ có workshop). Thông tin về thực hiện dự án AI trong ngành công nghiệp chưa được nêu chi tiết, mặc dù có vị trí Senior AI Engineer. Khả năng truyền cảm hứng (inspirational ability) cũng chưa được minh chứng cụ thể trong hồ sơ."
+    },
+    "interview_questions": {
+      "questions": [
+        {
+          "content": "Bạn có thể chia sẻ một ví dụ cụ thể về cách bạn thiết kế một khóa học dựa trên dự án thực tế, từ việc lựa chọn đề tài, xây dựng tài liệu, đến cách bạn truyền cảm hứng và đánh giá tiến độ của sinh viên?",
+          "goal": "Đánh giá phương pháp giảng dạy dựa trên dự án và khả năng truyền cảm hứng cho học viên.",
+          "related_to": "weakness"
+        },
+        {
+          "content": "Mô tả chi tiết một dự án gần đây mà bạn đã triển khai mô hình CNN/RNN/Transformer trên PyTorch/TensorFlow, bao gồm kiến trúc, dữ liệu, thách thức kỹ thuật và kết quả đạt được.",
+          "goal": "Kiểm chứng độ sâu chuyên môn và kinh nghiệm thực tiễn với các framework AI.",
+          "related_to": "strength"
+        },
+        {
+          "content": "Bạn đã xuất bản nhiều bài báo tại các workshop của ICML và CVPR. Bạn dự định làm gì để nâng cao chất lượng nghiên cứu và xuất bản tại các hội nghị hàng đầu như NIPS, ICML, CVPR? Bạn đã từng tham gia các hoạt động nghiên cứu mở rộng nào?",
+          "goal": "Đánh giá ý thức phát triển nghiên cứu và khả năng cải thiện để đạt chuẩn hội nghị cao cấp.",
+          "related_to": "weakness"
+        },
+        {
+          "content": "Trong vai trò Senior AI Engineer, bạn đã làm việc với các nhóm đa chức năng (kỹ thuật, kinh doanh, pháp lý). Bạn có thể kể một trường hợp khi bạn đã điều phối một dự án AI từ giai đoạn ý tưởng đến triển khai, và làm thế nào bạn đảm bảo tính đạo đức và tuân thủ quy định?",
+          "goal": "Kiểm tra khả năng làm việc nhóm, hiểu biết về đạo đức AI và phù hợp với văn hoá tổ chức.",
+          "related_to": "strength"
+        },
+        {
+          "content": "Bạn đã triển khai huấn luyện mô hình AI trên Cloud GPU. Hãy mô tả quy trình tối ưu hóa chi phí, quản lý tài nguyên và đảm bảo hiệu suất cao trong môi trường đa người dùng.",
+          "goal": "Xác minh kinh nghiệm triển khai thực tế trong môi trường công nghiệp và khả năng quản lý tài nguyên.",
+          "related_to": "weakness"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Le Quang Vinh",
+    "matching_score": 58.33,
+    "analysis": {
+      "strengths": "Le Quang Vinh có 11 năm kinh nghiệm trong lĩnh vực AI, bao gồm công tác nghiên cứu cấp cao và giảng dạy tại các trường đại học quốc tế. Anh sở hữu đầy đủ các kỹ năng kỹ thuật yêu cầu trong JD (Python, PyTorch, TensorFlow, CNN, RNN/GRU, Transformers) và có kinh nghiệm thực hiện dự án AI trong ngành công nghiệp. Với bằng PhD và các bài báo được công bố tại NeurIPS, CVPR, ICML, anh đáp ứng hoàn hảo các yêu cầu ưu tiên về xuất bản khoa học. Anh còn có kỹ năng giảng dạy, tư vấn sinh viên, và triển khai giải pháp AI thực tiễn, phù hợp với trách nhiệm thiết kế chương trình giảng dạy, hướng dẫn nghiên cứu và cập nhật chương trình học. Anh cũng có khả năng giao tiếp tiếng Anh tốt, giúp anh truyền đạt kiến thức một cách hiệu quả.",
+      "weaknesses": "Mặc dù CV đề cập đến kinh nghiệm trong Reinforcement Learning, nhưng không có chi tiết cụ thể về việc giảng dạy hoặc triển khai RL trong chương trình học. Thêm vào đó, CV không ghi rõ kinh nghiệm tư vấn cho các nhóm khởi nghiệp trong trường đại học, một trong những trách nhiệm chính của vị trí. Cuối cùng, không có bằng chứng trực tiếp về khả năng truyền cảm hứng (inspirational ability) hay việc cập nhật chương trình giảng dạy theo xu hướng công nghiệp mới nhất, mặc dù có kinh nghiệm nghiên cứu và giảng dạy."
+    },
+    "interview_questions": {
+      "questions": [
+        {
+          "content": "Bạn có thể mô tả cách bạn sẽ thiết kế một khóa học về Reinforcement Learning dành cho sinh viên năm cuối, bao gồm cả phần lý thuyết và thực hành? Bạn dự định sử dụng những công cụ và dữ liệu nào để minh hoạ các thuật toán RL?",
+          "goal": "Đánh giá khả năng thiết kế chương trình giảng dạy và tích hợp RL vào thực hành.",
+          "related_to": "weakness"
+        },
+        {
+          "content": "Trong dự án gần đây nhất của bạn, bạn đã áp dụng mô hình Transformer để giải quyết vấn đề nào trong ngành công nghiệp? Bạn gặp những thách thức gì và làm thế nào để tối ưu hiệu suất?",
+          "goal": "Kiểm chứng chuyên môn kỹ thuật và kinh nghiệm thực tiễn với Transformers.",
+          "related_to": "strength"
+        },
+        {
+          "content": "Bạn có thể chia sẻ quá trình chuẩn bị và nộp bài báo tại NeurIPS hoặc CVPR? Những khó khăn chính là gì và bạn đã vượt qua chúng như thế nào?",
+          "goal": "Đánh giá năng lực nghiên cứu, quy trình xuất bản và khả năng giải quyết vấn đề.",
+          "related_to": "strength"
+        },
+        {
+          "content": "Bạn đã từng tư vấn cho các nhóm khởi nghiệp trong trường đại học chưa? Nếu chưa, bạn dự định làm thế nào để xây dựng mối quan hệ và hỗ trợ họ phát triển sản phẩm AI?",
+          "goal": "Xác định khả năng tư vấn startup và kế hoạch thực hiện.",
+          "related_to": "weakness"
+        },
+        {
+          "content": "Kể về một tình huống mà bạn đã truyền cảm hứng cho sinh viên hoặc đồng nghiệp để theo đuổi nghiên cứu AI sâu hơn. Bạn đã làm gì và kết quả ra sao?",
+          "goal": "Đánh giá khả năng truyền cảm hứng và ảnh hưởng tích cực tới cộng đồng học thuật.",
+          "related_to": "weakness"
+        }
+      ]
+    }
+  },
+  {
+    "name": "Nguyen Hai Anh",
+    "matching_score": 58.33,
+    "analysis": {
+      "strengths": "Ứng viên có 9 năm kinh nghiệm chuyên sâu trong lĩnh vực AI, với bằng PhD và thành thạo các công nghệ chính được yêu cầu trong JD (Python, PyTorch, TensorFlow, CNN, RNN, Transformers). Anh đã thiết kế và giảng dạy các khóa học AI cấp cao, hướng dẫn hơn 25 dự án nghiên cứu sinh, và xuất bản nhiều bài báo tại CVPR và ICML, đáp ứng yêu cầu về xuất bản quốc tế. Ngoài ra, anh có kinh nghiệm triển khai các dự án AI thực tiễn trong ngành, sử dụng MLOps và có kỹ năng truyền đạt tiếng Anh chuyên sâu, chứng minh khả năng tư vấn và giảng dạy hiệu quả. Những yếu tố này làm cho anh phù hợp mạnh mẽ với vị trí Giảng viên Cao cấp Trí tuệ Nhân tạo.",
+      "weaknesses": "Trong hồ sơ không có đề cập đến các bài báo tại NIPS, một trong những tiêu chí ưu tiên của JD. Thêm vào đó, chưa rõ ràng về kinh nghiệm cập nhật chương trình giảng dạy theo xu hướng công nghiệp, cũng như việc tư vấn cho các nhóm khởi nghiệp trong trường đại học – hai trách nhiệm quan trọng trong mô tả công việc. Khả năng truyền cảm hứng (inspirational ability) cũng chưa được minh chứng cụ thể trong CV. Những khoảng cách này có thể cần được làm rõ hoặc bổ sung trong quá trình phỏng vấn."
+    },
+    "interview_questions": {
+      "questions": [
+        {
+          "content": "Bạn đã thiết kế và giảng dạy khóa học AI cấp cao nào trong quá khứ? Hãy mô tả cách bạn cập nhật chương trình giảng dạy để phản ánh xu hướng công nghiệp mới nhất và những thách thức bạn gặp phải khi thực hiện điều đó.",
+          "goal": "Đánh giá khả năng cập nhật chương trình giảng dạy theo xu hướng công nghiệp và khả năng thích ứng với thay đổi.",
+          "related_to": "Điểm yếu: thiếu kinh nghiệm cập nhật chương trình giảng dạy theo xu hướng công nghiệp"
+        },
+        {
+          "content": "Bạn có kế hoạch nào để xuất bản bài báo tại NIPS trong tương lai? Hãy chia sẻ chiến lược nghiên cứu, lựa chọn đề tài và các bước thực hiện để đạt được mục tiêu này.",
+          "goal": "Kiểm tra ý thức và kế hoạch cụ thể của ứng viên trong việc đạt được tiêu chí ưu tiên của JD.",
+          "related_to": "Điểm yếu: chưa xuất bản tại NIPS"
+        },
+        {
+          "content": "Mô tả chi tiết một dự án thực tiễn mà bạn đã triển khai MLOps, từ việc xây dựng pipeline, triển khai mô hình, đến giám sát và bảo trì. Bạn đã sử dụng công cụ nào và gặp khó khăn gì?",
+          "goal": "Xác thực kinh nghiệm thực tiễn và kỹ năng MLOps của ứng viên.",
+          "related_to": "Điểm mạnh: kinh nghiệm triển khai dự án AI thực tiễn và MLOps"
+        },
+        {
+          "content": "Bạn đã từng truyền cảm hứng cho sinh viên hoặc đồng nghiệp như thế nào? Hãy kể một ví dụ cụ thể về cách bạn đã khơi dậy đam mê và động lực học tập trong nhóm nghiên cứu.",
+          "goal": "Đánh giá khả năng truyền cảm hứng và xây dựng môi trường học tập tích cực.",
+          "related_to": "Điểm yếu: chưa minh chứng khả năng truyền cảm hứng"
+        },
+        {
+          "content": "Trong quá trình giảng dạy tiếng Anh, bạn đã áp dụng những phương pháp nào để đảm bảo sinh viên có thể nắm bắt nội dung chuyên sâu? Bạn có ví dụ về một bài giảng thành công mà bạn cảm thấy tự hào?",
+          "goal": "Kiểm tra kỹ năng truyền đạt tiếng Anh chuyên sâu và khả năng tạo sự tương tác trong lớp học.",
+          "related_to": "Điểm mạnh: kỹ năng truyền đạt tiếng Anh chuyên sâu"
+        }
+      ]
+    }
+  }
+]
